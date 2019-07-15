@@ -1,5 +1,6 @@
 ## Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras
 by Vi Ly
+In Participation in UIPath Global Automation Hackthon 2019
 
 ## Inspiration:
 Pneumonia is an infection in one or both lungs caused by bacteria, viruses, or fungi. Pneumonia causes inflammation in the air sacs in your lungs which will cause it difficult to breathe. Each year in the United States, about 1 million people have to seek care in a hospital due to pneumonia. In those 1 million, about 50,000 people die from the disease each year in the United States. 
