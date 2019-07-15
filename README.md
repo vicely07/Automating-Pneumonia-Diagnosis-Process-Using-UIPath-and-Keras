@@ -39,7 +39,8 @@ After saving the best deep learning model, I built a workflow in UIPath to autom
 
 **UIPath Workflow:**
 
-![] (https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/821/649/datas/gallery.jpg)
+![] 
+(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/821/649/datas/gallery.jpg)
 
 
 ## Challenges I ran into:
