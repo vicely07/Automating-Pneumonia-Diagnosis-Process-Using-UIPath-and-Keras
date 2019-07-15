@@ -37,12 +37,6 @@ Precision: 80%;
 UIPath:
 After saving the best deep learning model, I built a workflow in UIPath to automate my testing process. The workflow will load the deep learning model, ask the users to select their chest Xray image and use the pre-trained model to test on the selected image. The diagnosis results will be displayed in a message box along with the selected image. All results will be saved into a log so that users can keep track of their testing process. 
 
-**UIPath Workflow:**
-
-![] 
-(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/821/649/datas/gallery.jpg)
-
-
 ## Challenges I ran into:
 I tried to run the Python file directly on the UIPath server but there are many deep learning packages that is not yet available. Therefore, after several trials and failures implementing different UIPath workflow, I eventually arrive to a working process by directing UIPath Robot to run the Python file on terminal while exporing the results to txt file. 
 
