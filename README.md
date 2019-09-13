@@ -1,6 +1,30 @@
 ## Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras
 by Vi Ly
 In Participation in UIPath Global Automation Hackthon 2019
+## How to use this UIPath component? 
+**Requirement:**
+•	Windows 10
+•	Anaconda
+•	Python 3.7
+•	Python packages: Keras, CV2, H5PY
+**Step by step instructions:**
+1.	Git clone the repository from: https://github.com/vicely07/Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras. A folder called “Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras” will be created in the location of your choice. 
+
+2.	Unzip the folder “Sample Images”.
+
+3.	Download the best_weight folder from my Dropbox into the folder “Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras”. Download the folder from here: https://www.dropbox.com/sh/l3o8laoit7f2kyq/AACDjQQkZc2Bh3gi7kk3W6HLa?dl=0
+
+4.	Go to the file Predict.py in src folder and change the line “path = 'C:/Users/lykha/OneDrive/Documents/GitHub/Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras/' “ to your working directory and save the change. Please make sure the format is similar to my original directory.
+
+5.	Open UIPath Studio, load the Main.xaml from the UIPath folder. When the workflow is loaded, go to the sequence called “Output” and find the activity called “Read Text File”. Change the directory in there to your working directory so that the result can locate the result correctly. 
+
+6.	After you do all the above, the workflow is ready to run. Click “Run” to start the processs. A message box will pop up to ask you for password, type in: 12345. 
+
+7.	When a window pop up to ask you for an input image, navigate to the folder “Sample Images” and double click on an image from there. The image will be loaded into the deep learning model.
+
+8.	When a message box pop up asking you if you want to display result, type “yes” (all lower case)
+
+9.	Finally, the result will pop up together with the testing image. A message will pop up to ask if you want to test again or not.
 
 ## Inspiration:
 Pneumonia is an infection in one or both lungs caused by bacteria, viruses, or fungi. Pneumonia causes inflammation in the air sacs in your lungs which will cause it difficult to breathe. Each year in the United States, about 1 million people have to seek care in a hospital due to pneumonia. In those 1 million, about 50,000 people die from the disease each year in the United States. 
