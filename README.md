@@ -7,7 +7,7 @@ In Participation in UIPath Global Automation Hackthon 2019
 •	Anaconda
 •	Python 3.7
 •	Python packages: Keras, CV2, H5PY
-**Step by step instructions:**
+## Step by step instructions:
 1.	Git clone the repository from: https://github.com/vicely07/Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras. A folder called “Automating-Pneumonia-Diagnosis-Process-Using-UIPath-and-Keras” will be created in the location of your choice. 
 
 2.	Unzip the folder “Sample Images”.
